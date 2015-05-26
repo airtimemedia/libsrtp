@@ -655,6 +655,7 @@ LDFLAGS
 CFLAGS
 CC
 RANLIB
+AR
 target_alias
 host_alias
 build_alias
