@@ -245,6 +245,7 @@ esac
 case $basic_machine in
 	# Recognize the basic CPU types without company name.
 	# Some are omitted here because they have special meanings below.
+  # airtime: CAR-601 Added aarch64 | aarch64_be
 	1750a | 580 \
 	| a29k \
 	| aarch64 | aarch64_be \
@@ -351,6 +352,7 @@ case $basic_machine in
 		exit 1
 		;;
 	# Recognize the basic CPU types with company name.
+  # airtime: CAR-601 Added aarch64 | aarch64_be
 	580-* \
 	| a29k-* \
 	| aarch64-* | aarch64_be-* \
